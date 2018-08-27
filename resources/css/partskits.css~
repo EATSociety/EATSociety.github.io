@@ -92,7 +92,7 @@ h2{
 .partsBtn{
 	border-radius: 12px;
 	font-size: 24px;
-	background-color: white;
+	background-color: gray;
 	text-align: center;
 	padding: 15px 32px;
 	color: white;

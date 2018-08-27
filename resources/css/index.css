@@ -35,7 +35,7 @@
 /* Sliideshow for main page image gallery */
 
 .imageGalleryContainer{
-	width: 1000px;
+	width: auto;
 	height: 500px;
 	overflow: hidden;
 	margin: auto;
