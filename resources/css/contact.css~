@@ -1,0 +1,10 @@
+@import url("main.css");
+
+h2{
+	font-size: 42px;
+}
+
+h3{
+	font-size: 32px;
+
+}

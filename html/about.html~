@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>EATS | About</title>
+    <link rel="stylesheet" href="../resources/css/about.css">
+  </head>
+
+
+  <body>
+  <header>
+    <h1 align="center">Embedded Applications Technology Society</h1>
+    
+    <!-- <img src="resources/images/EAT_image2.jpg" height = "250" width = "350"> -->
+    <!-- <a href="index.html" class="headerBanner" ></a> -->
+    
+    <div class="navBar">
+		<a href="../index.html">Home</a>
+		<a href="calendar.html">Calendar</a>
+		<a href="projectshome.html" >Projects</a>
+		
+		<div class="dropdown">
+		<button class="dropbtn">EAT Shop</button>
+			<div class="drop-tabs">
+				<a href="partskits.html" >Parts and Kits</a>
+				<a href="snacks.html" >Snack Shop</a>
+			</div>		
+		</div>
+		
+		<a href="contact.html" >Officers and Contact</a>
+		<a class="current" href="about.html">About Us</a>
+	</div>
+	</header>	
+ 	
+ 	
+ 	<div class="mainBody">
+ 	<h2>About Us</h2>
+ 	
+ 		<h3>Location</h3>
+ 	
+ 		<h3>What Does EAT Stand For?</h3>
+ 		
+ 		<h3>History</h3>
+ 	
+ 	</div>
+ 	
+ 	
+ 	
+ 	<div class="push"></div>
+    </div>
+    
+    
+    <div class="socialMedia">
+    	<a href="#" class="facebook"></a>
+    	<a href="#" class="twitter"></a>
+    	<a href="#" class="instagram" ></a>
+    	<a href="#" class="snapchat"></a>
+    </div>
+
+  </body>
+</html>

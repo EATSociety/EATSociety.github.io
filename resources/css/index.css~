@@ -1,0 +1,119 @@
+@import url("main.css");
+
+
+.left{
+	margin-left: 1%;
+	margin-top: 1%;
+	
+	height: 1100px;
+	width: 500px;	
+	float: left;
+	
+	border-right: 10px groove white;
+
+	padding: 0;
+
+	
+}
+
+.gcalEvents, .gcalMeetings{
+	padding: 3%;
+	margin: 3%;
+}
+
+
+.mainBody{
+	margin-right: 1%;
+	margin-top: 1%;
+	
+	height: 950px;
+	width: 1100px;
+	float: right;
+}
+
+
+/* Sliideshow for main page image gallery */
+
+.imageGalleryContainer{
+	width: 1000px;
+	height: 500px;
+	overflow: hidden;
+	margin: auto;
+	border: 5px solid white;
+	
+}
+
+.imageGalleryContainer img{
+	height: auto;
+	width: auto;
+	
+}
+
+/* Images are hidden by default*/
+.slides{
+	display: none;
+}
+
+
+
+.dot{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: white;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;	
+}
+
+.active, .dot:hover{
+	background-color: gold;
+}
+
+/* Fade Animation */
+
+
+/* Sidebar Membership Dropdown Code */
+.dropdownSignup{
+	font-size: 20px;	
+	background-color: gray;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 80%;
+	border: none;
+	outline: none;
+	transition: 0.9s;
+	margin-top: 3%;
+ 
+	
+}
+
+.dropdownSignup:after{
+	content: '\25bc';
+	font-size: 20px;
+	color: black;
+	float: right;
+	margin: 1px;
+}
+
+.dropdownActive:after{
+	content: '\25b2';
+}
+
+.dropdownActive, .dropdownSignup:hover{
+	background-color: orangered;
+}
+
+.signup{
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-out;
+}
+
+/* End Membership Code */
+
+
+
+

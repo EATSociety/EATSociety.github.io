@@ -1,0 +1,106 @@
+@import url("main.css");
+
+.dropdown .dropbtn{
+	background-color: gold;
+}
+
+.sidebar{
+	top: 5%;
+	height: 50%;
+	width: 200px;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	left: 10px;
+	padding-right: 5px;
+	border-right: 10px groove gray;
+	float: left;
+}
+
+
+.sidebar h3{
+	text-align: center;
+}
+
+.sidebar a{
+
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	display: block;
+	text-align: center;
+	background-color: gray;
+	border: 1px solid white;
+	padding: 2px;
+	margin-right: 10px;
+	position: relative;
+	overflow: hidden;
+	left: 10px;
+}
+
+.sideh3{
+	font-size: 25px;
+}
+
+.sidebar a:hover{
+	background-color: gold;
+}
+
+.contents{
+	height: 1200px;
+	width: 85%;
+	float: right;
+
+
+}
+
+.headDivide{
+	text-align: center;
+}
+
+.cropContain {
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	background-color: white;
+	border: 5px solid gold;
+}
+
+.cropContain img{
+	height: auto;
+	width: 300px;
+	
+}
+
+.prod{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0;
+	margin-bottom: 0;	
+	text-align: center;
+}
+
+h3{
+	margin-left: 20px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+.partsBtn{
+	border-radius: 12px;
+	font-size: 24px;
+	background-color: white;
+	text-align: center;
+	padding: 15px 32px;
+	color: white;
+	transition-duration: 0.5s;
+	border: 1px solid white;
+}
+
+.partsBtn:hover{
+	background-color: gold;
+	color: black;
+}

@@ -1,0 +1,11 @@
+@import url("main.css");
+
+.mainBody{
+	border: 5px solid pink;
+}
+
+.calendar{
+	margin: 1%;
+	border: 5px solid red;
+	padding: 1%;
+}

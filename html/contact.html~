@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>EATS | About</title>
+    <link rel="stylesheet" href="../resources/css/contact.css">
+  </head>
+
+
+  <body>
+  <header>
+    <h1 align="center">Embedded Applications Technology Society</h1>
+    
+    <!-- <img src="resources/images/EAT_image2.jpg" height = "250" width = "350"> -->
+    <!-- <a href="index.html" class="headerBanner" ></a> -->
+    
+    <div class="navBar">
+		<a href="../index.html">Home</a>
+		<a href="calendar.html">Calendar</a>
+		<a class="unavailable" href="projectshome.html" >Projects</a>
+		
+		<div class="dropdown">
+		<button class="dropbtn">EAT Shop</button>
+			<div class="drop-tabs">
+				<a href="partskits.html" >Parts and Kits</a>
+				<a href="snacks.html" >Snack Shop</a>
+			</div>		
+		</div>
+		
+		<a href="officers.html" >Officers</a>
+		<a class="current" href="about.html">Contact</a>
+	</div>
+	</header>	
+ 	
+ 	
+ 	<div class="mainBody">
+ 	<h2 align="center">Contact</h2>
+ 	
+ 		<h3>Location</h3>
+ 		<p>
+ 		VEC-524 <br>
+ 		California State University, Long Beach <br>
+ 		1250 Bellflower Blvd Long Beach, CA <br>
+ 		Long Beach, CA 90840
+ 		</p>
+ 		
+ 		<h3>Office Hours</h3>
+ 		<p>Monday - Friday, 9:00 AM - 9:00 PM</p>
+ 	
+ 		<h3>E-mail</h3>
+ 		<p>General: secretary@eatsociety.org</p>
+ 		<p>Projects: projects@eatsociety.org</p>
+ 	
+ 	</div>
+ 	
+ 	
+ 	
+ 	<div class="push"></div>
+    </div>
+    
+    
+    <div class="socialMedia">
+    	<a href="https://www.facebook.com/eat.society/" class="facebook"></a>
+    	<a href="#" class="twitter"></a>
+    	<a href="#" class="instagram" ></a>
+    	<a href="#" class="snapchat"></a>
+    </div>
+
+  </body>
+</html>

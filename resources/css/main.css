@@ -1,0 +1,259 @@
+/* Use class="" inside html tags to group things, refer to them with . in css file, even more specific can refer to tags, ex. h2.class*/
+/* use id for js*/
+
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	
+}
+
+body{
+	width: 1680px;
+	margin: 0 auto;
+	background-color: #242021;
+	
+	position: relative;
+	overflow: auto;
+	font-family: FreeSans, Times , serif;
+}
+	/* Note, fonts work with fonts on system */ 
+
+.wrap{
+	min-height: 1300px;
+	/*margin-bottom: -50px;*/
+	/*border: 5px solid pink;*/
+	position: relative;
+	overflow: hidden;
+}
+
+p{
+	color: white;
+}
+
+a:link {
+    color: gold; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h1 {
+	color: white;
+	padding: 20px;
+}
+
+h2 {
+	color: white;
+}
+
+h3{
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Navigation Bar Code */
+.navBar{
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+
+.navBar a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration:none;
+	float: left;
+}
+
+.navBar a:hover{
+	background-color: gold;
+}
+
+a.current{
+	background-color: gold;
+}
+
+
+/* The button that belongs to the div */
+.dropdown{
+	overflow: hidden;
+	float: left;
+
+}
+
+.dropdown .dropbtn{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: black;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+
+.dropdown:hover .dropbtn{
+	background-color: gold;
+}
+
+.dropbtn:after{
+	content: '\25bc';
+	float: right;
+	margin-left: 10px;
+}
+
+.drop-tabs{
+	display: none;
+	position: absolute;	
+	background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;	
+}
+
+.drop-tabs a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.drop-tabs a:hover{
+	background-color: gold;
+}
+
+.dropdown:hover .drop-tabs{
+	display: block;
+}
+/* End Navigation Bar Code */
+
+/* Page Header Code */
+
+.headerBanner{
+	background-image: url('../images/EAT_image2.jpg');
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 200px auto;
+	height: 130px;
+	width: 200px;	
+}
+
+a.unavailable{
+	opacity: 0.5;
+}
+a.unavailable:hover{
+	opacity: 0.5;
+}
+
+a.unavailable.current{
+	opacity: 0.5;
+}
+
+
+/* End Page Header Code */
+
+
+/* Consider going back and making social media move along with scroll */
+/* Social Media Footer Code */
+.socialMedia{
+	position: fixed;
+	float: right;
+	right: 1%;
+	bottom: 1%
+}
+
+.facebook{
+	/*background: transparent url('../images/socialmedia/facebook.png') no-repeat right center;*/
+	background-image: url('../images/socialmedia/facebook.png');
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	float: left;
+	padding: 2px
+}
+
+
+.twitter{
+	/*background: transparent url('../images/socialmedia/facebook.png') no-repeat right center;*/
+	background-image: url('../images/socialmedia/twitter.png');
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	float: left;
+	padding: 2px
+}
+
+.snapchat{
+	/*background: transparent url('../images/socialmedia/facebook.png') no-repeat right center;*/
+	background-image: url('../images/socialmedia/snapchat.png');
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	float: left;
+	padding: 2px;
+}
+
+.instagram{
+	/*background: transparent url('../images/socialmedia/facebook.png') no-repeat right center;*/
+	background-image: url('../images/socialmedia/instagram.png');
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	float: left;
+	padding: 2px;
+}
+
+.facebook:hover,.twitter:hover,.snapchat:hover,.instagram:hover{
+	opacity: 0.8;
+}
+/* End Social Media Footer Code */
+
+
+/*for body, width: 70%, margin: 0 auto*/
+/*add borders ex. border-bottom: 10px solid gold;   hex notation: #777, rgb notation rgb(45,45,100);*/
+
+
+

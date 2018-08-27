@@ -1,98 +1,120 @@
 <html>
   <head>
-    <title>EATS</title>
+    <title>EATS | Home</title>
+    <link rel="stylesheet" href="resources/css/index.css">
   </head>
 
-  <style>
-a:link {
-    color: white; 
-    background-color: transparent; 
-    text-decoration: none;
-}
 
-a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
+  <body>
+  <header>
+    <h1 align="center">Embedded Applications Technology Society</h1>
+    
+    <!-- <img src="resources/images/EAT_image2.jpg" height = "250" width = "350"> -->
+    <!-- <a href="index.html" class="headerBanner" ></a> -->
+    
+    <div class="navBar">
+		<a class="current" href="index.html">Home</a>
+		<a href="html/calendar.html">Calendar</a>
+		<a class="unavailable" href="html/projectshome.html" >Projects</a>
 
-a:hover {
-    color: blue;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-h2 {
-	color: white;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-      }
-</style>
-
-  <body style="background-color:Black;">
-    <h1 align="center"><font color="Yellow">Embedded Applications Technology Society</font></h1>
-    <img src="EAT_image2.jpg" height = "250" width = "350">
-
-    <h2 align ="center">Coming Soon</h2>
+		<div class="dropdown">
+		<button onclick="window.location.href='html/shophome.html'" class="dropbtn">EAT Shop</button>
+			<div class="drop-tabs">
+				<a href="html/partskits.html" >Parts and Kits</a>
+				<a href="html/snacks.html" >Snack Shop</a>
+			</div>		
+		</div>
+		
+		<a href="html/officers.html" >Officers</a>
+		<a href="html/contact.html">Contact</a>
+	</div>
+	</header>	
+ 	
  
-	<!-- 
-	<h2>About Us</h2>
-    <p><font color="Yellow">We are a project-based student organization whose focus is to participate in national and international competitions. We are primarily composed of Computer Engineering majors, however, we accept members from all majors. The only requirement to be a member of EAT is to be a member of California State University, Long Beach, and sign up online or in person at the meetings.
-    It is the purpose of this organization to introduce students to new technologies through various personal or group projects.</font> <br /> <br />
-      
-      <font color="Red">Notice: </font> <font color="Yellow">Our website is currently under construction by our wonderful members :)</font></p>
+   
+   
+	<!-- TODO: Upcoming Event(s), Meeting Date(s), Add Membership Tab -->    
+    
 
-  
-    <h2>Important Information</h2>
-    <p><font color="Yellow"><a href="https://docs.google.com/document/d/1qMpoZ50CWaxHTDj9rTkSLI2mfYGAY7VRo5pFJsMDnxw/edit">Click here</a> to view EAT's Constitution <br />
-    <a href="https://docs.google.com/spreadsheets/d/1kKcieRR18tZEn_LLkApYU1f7G1Z6ga8_iRukFpiObhY/edit?usp=sharing">Click here </a> to find our Kits/Parts and Price <br />
-    Want to become a member? <a href="https://docs.google.com/forms/d/e/1FAIpQLScnwLOHFQFA3B0nlhSNywnzjzJxuuHcEK2atFt1HlqEITB2SQ/viewform#responses">Click here</a> <br />
-    Email Contact: secretary@eatsociety.org</font></p>
+    <div class="main">
+    
+    <div class="left">
+    <h3>Our Events/Meetings</h3>
+    
+    <h4>Upcoming Meetings</h4>
+    <div class="gcalMeetings">
+	<iframe src="https://calendar.google.com/calendar/embed?title=Upcoming%20Meetings&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=
+					0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=projects%40eatsociety.org&amp;color=%23875509&amp;src=eatsociety.org_rg3vabuf
+					4ooav8b3vcqkhmh18s%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="350" height="100" frameborder="0" 
+					scrolling="no">
+	</iframe>    
+    </div>
+    
+    <h4>Upcoming Events</h4>
+    <div class="gcalEvents">
+    <iframe src="https://calendar.google.com/calendar/embed?title=Upcoming%20Meetings&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=
+    				0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=eatsociety.org_aqpg9ga2ovlahdpqaj0u0t65og%40group.calendar.google.com&amp;colo
+    				r=%23182C57&amp;ctz=America%2FLos_Angeles" style="border:solid 1px #777" width="350" height="100" frameborder="0" scrolling="no">
+   </iframe> 
+    </div>
+  	
+  	<h4>Membership</h4>
+    <div>
+    <button class="dropdownSignup">Become a Member</button>
+    	<div class="signup">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfshWfuaRLWM4kLRpEQFm6JAUto0BqfqFFA4c0vOjAOLJqdqg/viewform?embedded=true" width="400" height="490" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+    	</div>
+    </div>
+    
+    
+    </div>
+    
+    <div class="mainBody">
+    	<!-- Slideshow gallery -->
+    	<div class="imageGalleryContainer">
+    		<div class="slides fade">
+				<img src="resources/images/EAT_image2.jpg">
+			</div>
+		
+			<div class="slides fade">
+				<img src="resources/images/EAT_image2.jpg">
+			</div>
+		
+			<div class="slides fade">
+				<img src="resources/images/EAT_image2.jpg">    
+			</div>
+    	</div>
+    	<br>
+    <!-- Dots at bottom of Gallery-->
+    <div style="text-align: center;">    
+    	<span class="dot" onclick="currentSlide(1)"></span>
+    	<span class="dot" onclick="currentSlide(2)"></span>
+    	<span class="dot" onclick="currentSlide(3)"></span>
+    
+    </div>
+    <!-- Main para under gallery -->
+    <div>
+    	<h2 style="text-align: center;">Welcome to EATS!</h2>
 
-    <h2>Current Officers</h2>
-    <p><font color="Yellow">President: Christine Leiterman <br /> 
-        Vice President: Rosswell Tiongco<br /> Secretary: Raul Solorio<br /> 
-        Treasurer: Alex Jong<br /> 
-        Project Manager: Jose Melgar<br /> 
-        AESB Representative: Vacant<br /> 
-        Faculty Advisor: Eric Hernandez</font></p>
-	  
-    <h2>New Officers</h2>
-    <p><font color="Yellow">President: Raul Solorio <br /> 
-        Vice President: Steven Phan<br /> Secretary: Jessica Benitez<br /> 
-        Treasurer: Steven Wang<br /> 
-        Project Manager: Jose Melgar<br /> 
-        AESB Representative: Jose Toledo<br /> 
-        Faculty Advisor: Eric Hernandez</font></p>
+    </div>
+    </div>
 
-    <h2>Location</h2>
-    <p>
-        <font color="Yellow">
-              Room: VEC-524 <br />
-              1250 Bellflower Blvd Long Beach, CA
-          </font>
-    </p>
-
-    <h2>Social Media</h2>
-    <p>
-        <font color="Yellow">
-              Snapchat: eat_society <br />
-              Twitter: eatsociety <br />
-              Instagram: <a href="https://www.instagram.com/eat.society/">eat.society</a> <br />
-              Facebook: <a href="https://www.facebook.com/eat.society/">eat.society</a>
-          </font>
-     </p>
+    
+    
+    
+    <div class="push"></div>
+    </div>
+    
+    
+    <div class="socialMedia">
+    	<a href="https://www.facebook.com/eat.society/" class="facebook"></a>
+    	<a href="#" class="twitter"></a>
+    	<a href="https://www.instagram.com/eat.society/" class="instagram"></a>
+    	<a href="#" class="snapchat"></a>
+    </div>
+    
 	
-	<img src="Seal_CSULB.PNG" height = "150" width = "200"> -->
+	<!-- Load JS files at the end -->
+	<script src="resources/js/index.js"></script>
   </body>
 </html>

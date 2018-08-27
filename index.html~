@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title>EATS | Home</title>
+    <link rel="stylesheet" href="resources/css/index.css">
+  </head>
+
+
+  <body>
+  <header>
+    <h1 align="center">Embedded Applications Technology Society</h1>
+    
+    <!-- <img src="resources/images/EAT_image2.jpg" height = "250" width = "350"> -->
+    <!-- <a href="index.html" class="headerBanner" ></a> -->
+    
+    <div class="navBar">
+		<a class="current" href="index.html">Home</a>
+		<a href="html/calendar.html">Calendar</a>
+		<a class="unavailable" href="html/projectshome.html" >Projects</a>
+
+		<div class="dropdown">
+		<button onclick="window.location.href='html/shophome.html'" class="dropbtn">EAT Shop</button>
+			<div class="drop-tabs">
+				<a href="html/partskits.html" >Parts and Kits</a>
+				<a href="html/snacks.html" >Snack Shop</a>
+			</div>		
+		</div>
+		
+		<a href="html/officers.html" >Officers</a>
+		<a href="html/contact.html">Contact</a>
+	</div>
+	</header>	
+ 	
+ 
+   
+   
+	<!-- TODO: Upcoming Event(s), Meeting Date(s), Add Membership Tab -->    
+    
+    <div class="wrap">
+    <div class="main">
+    
+    <div class="left">
+    <h3>Our Events/Meetings</h3>
+    
+    <h4>Upcoming Meetings</h4>
+    <div class="gcalMeetings">
+	<iframe src="https://calendar.google.com/calendar/embed?title=Upcoming%20Meetings&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=
+					0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=projects%40eatsociety.org&amp;color=%23875509&amp;src=eatsociety.org_rg3vabuf
+					4ooav8b3vcqkhmh18s%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="350" height="100" frameborder="0" 
+					scrolling="no">
+	</iframe>    
+    </div>
+    
+    <h4>Upcoming Events</h4>
+    <div class="gcalEvents">
+    <iframe src="https://calendar.google.com/calendar/embed?title=Upcoming%20Meetings&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=
+    				0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=eatsociety.org_aqpg9ga2ovlahdpqaj0u0t65og%40group.calendar.google.com&amp;colo
+    				r=%23182C57&amp;ctz=America%2FLos_Angeles" style="border:solid 1px #777" width="350" height="100" frameborder="0" scrolling="no">
+   </iframe> 
+    </div>
+  	
+  	<h4>Membership</h4>
+    <div>
+    <button class="dropdownSignup">Become a Member</button>
+    	<div class="signup">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfshWfuaRLWM4kLRpEQFm6JAUto0BqfqFFA4c0vOjAOLJqdqg/viewform?embedded=true" width="400" height="490" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+    	</div>
+    </div>
+    
+    
+    </div>
+    
+    <div class="mainBody">
+    	<!-- Slideshow gallery -->
+    	<div class="imageGalleryContainer">
+    		<div class="slides fade">
+				<img src="resources/images/EAT_image2.jpg">
+			</div>
+		
+			<div class="slides fade">
+				<img src="resources/images/EAT_image2.jpg">
+			</div>
+		
+			<div class="slides fade">
+				<img src="resources/images/EAT_image2.jpg">    
+			</div>
+    	</div>
+    	<br>
+    <!-- Dots at bottom of Gallery-->
+    <div style="text-align: center;">    
+    	<span class="dot" onclick="currentSlide(1)"></span>
+    	<span class="dot" onclick="currentSlide(2)"></span>
+    	<span class="dot" onclick="currentSlide(3)"></span>
+    
+    </div>
+    <!-- Main para under gallery -->
+    <div>
+    	<h2 style="text-align: center;">Welcome to EATS!</h2>
+
+    </div>
+    </div>
+
+    
+    
+    
+    <div class="push"></div>
+    </div>
+    
+    
+    <div class="socialMedia">
+    	<a href="https://www.facebook.com/eat.society/" class="facebook"></a>
+    	<a href="#" class="twitter"></a>
+    	<a href="https://www.instagram.com/eat.society/" class="instagram"></a>
+    	<a href="#" class="snapchat"></a>
+    </div>
+    
+	
+	<!-- Load JS files at the end -->
+	<script src="resources/js/index.js"></script>
+  </body>
+</html>
