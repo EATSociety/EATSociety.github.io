@@ -23,13 +23,13 @@
 
 
 .mainBody{
-	margin-left: 15%;
+	margin-left: 1%;
 	margin-top: 1%;
 	
 	height: 950px;
 	width: auto;
 	float: left;
-	border: 5px solid blue;
+
 }
 
 
