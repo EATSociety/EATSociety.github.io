@@ -48,8 +48,9 @@
 
 .contents{
 	height: 1200px;
-	width: 85%;
-	float: right;
+	width: auto;
+	float: left;
+	margin-left: 5%;
 
 
 }
