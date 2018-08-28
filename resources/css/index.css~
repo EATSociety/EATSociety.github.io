@@ -23,7 +23,7 @@
 
 
 .mainBody{
-	margin-left: 1%;
+	margin-left: 5%;
 	margin-top: 1%;
 	
 	height: 950px;
@@ -36,7 +36,7 @@
 /* Sliideshow for main page image gallery */
 
 .imageGalleryContainer{
-	width: 750px;
+	width: auto;
 	height: 500px;
 	overflow: hidden;
 	margin: 0 auto;
