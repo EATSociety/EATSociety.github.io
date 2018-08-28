@@ -50,6 +50,7 @@
 	height: 1200px;
 	width: auto;
 	float: left;
+	margin-left: 5%;
 
 
 }
@@ -68,7 +69,7 @@
 
 .cropContain img{
 	height: auto;
-	width: 300px;
+	width: 100px;
 	
 }
 
